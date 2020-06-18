@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         System.out.println("Rodrigo Marcelino Silva Amorim");
-        System.out.println("Esta aplicação está consumindo uma API Web - https://aluguebug.herokuapp.com/calc");
+        System.out.println("A aplicação está utilizando a API Web - https://aluguebug.herokuapp.com/calc");
         Scanner sc = new Scanner(System.in);
         
         // Entrando com dados
