@@ -115,13 +115,13 @@ public class LibTestRMSA {
     public void testDia29RMSA(){
         Request request = new Request();
         String data = request.jsonRent(new Rent(300.00, 29));
-        assertEquals(307.2, request.createRequest(data));
+        assertEquals(310.2, request.createRequest(data));
     }
     @Test
     public void testDia30RMSA(){
         Request request = new Request();
         String data = request.jsonRent(new Rent(300.00, 30));
-        assertEquals(307.5, request.createRequest(data));
+        assertEquals(310.5, request.createRequest(data));
     }
     @Test
     public void testDia31RMSA(){
